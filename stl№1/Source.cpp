@@ -10,6 +10,7 @@ int main() {
         for (int i = 0; i < n; i++)
             cin >> a[i];
         sort(a.begin(), a.end());
+        reverse(a.begin(), a.end());
         for (auto value : a)
             cout << value << " ";
         return 0;
